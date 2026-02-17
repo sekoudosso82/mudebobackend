@@ -31,3 +31,9 @@ C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\obj\Debug\net8.0\refint\
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\obj\Debug\net8.0\MudeboAPI.pdb
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\obj\Debug\net8.0\MudeboAPI.genruntimeconfig.cache
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\obj\Debug\net8.0\ref\MudeboAPI.dll
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\bin\Debug\net8.0\DbLayer.dll
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\bin\Debug\net8.0\ModelsLayer.dll
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\bin\Debug\net8.0\DbLayer.pdb
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\MudeboAPI\bin\Debug\net8.0\ModelsLayer.pdb

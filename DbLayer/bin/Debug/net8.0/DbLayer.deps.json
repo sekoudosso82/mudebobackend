@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DbLayer/1.0.0": {
+        "dependencies": {
+          "BusinessLayer": "1.0.0",
+          "ModelsLayer": "1.0.0"
+        },
+        "runtime": {
+          "DbLayer.dll": {}
+        }
+      },
+      "BusinessLayer/1.0.0": {
+        "dependencies": {
+          "ModelsLayer": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLayer.dll": {}
+        }
+      },
+      "ModelsLayer/1.0.0": {
+        "runtime": {
+          "ModelsLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DbLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelsLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
