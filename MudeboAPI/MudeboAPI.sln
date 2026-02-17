@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudeboAPI", "MudeboAPI.csproj", "{29704F6A-9689-4B4A-B25E-F728146C8BF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudeboAPI", "MudeboAPI.csproj", "{29704F6A-9689-4B4A-B25E-F728146C8BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelsLayer", "..\ModelsLayer\ModelsLayer.csproj", "{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{29704F6A-9689-4B4A-B25E-F728146C8BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29704F6A-9689-4B4A-B25E-F728146C8BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29704F6A-9689-4B4A-B25E-F728146C8BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
