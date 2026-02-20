@@ -10,3 +10,6 @@ C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\ModelsLayer\obj\Debug\net8.0\Model
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\ModelsLayer\obj\Debug\net8.0\refint\ModelsLayer.dll
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\ModelsLayer\obj\Debug\net8.0\ModelsLayer.pdb
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\ModelsLayer\obj\Debug\net8.0\ref\ModelsLayer.dll
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\ModelsLayer\obj\Debug\net8.0\ModelsLayer.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\ModelsLayer\bin\Debug\net8.0\ModelsLayer.runtimeconfig.json
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\ModelsLayer\obj\Debug\net8.0\ModelsLayer.genruntimeconfig.cache

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MudeboAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ade53c7586be259a98370a9ec3e356590e718dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a720af02bd1af07cefa36298394832e897242f90")]
 [assembly: System.Reflection.AssemblyProductAttribute("MudeboAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MudeboAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
