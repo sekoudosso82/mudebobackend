@@ -8,5 +8,6 @@ namespace BusinessLayer
 {
     public class Activity
     {
+
     }
 }
