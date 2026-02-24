@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ModelsLayer
 {
-    public class Login
+    public class Logins
     {
         [Key, Required]
         public int LoginId { get; set; }
@@ -15,8 +15,8 @@ namespace ModelsLayer
         public string? UserName { get; set; }
         [Required]
         public string? Password { get; set; }
-        public Login() { }
-        public Login(int loginId, string username, string password) { 
+        public Logins() { }
+        public Logins(int loginId, string username, string password) { 
             LoginId = loginId;
             UserName = username;
             Password = password;

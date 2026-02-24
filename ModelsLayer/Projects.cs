@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ModelsLayer
 {
-    public class Project
+    public class Projects
     {
         [Required]
         [Key]
@@ -18,7 +18,7 @@ namespace ModelsLayer
         public DateOnly ProjectDate { get; set; }
         public string? ProjectPhoto { get; set; }
 
-        public Project(string projectTitle, string projectDescription, 
+        public Projects(string projectTitle, string projectDescription, 
             string projectStatus, DateOnly projectDate, string projectPhoto) 
         {
             ProjectTitle = projectTitle;

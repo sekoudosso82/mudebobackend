@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ModelsLayer
 {
-    public class Member
+    public class Members
     {
         [Required]
         [Key]
@@ -19,8 +19,8 @@ namespace ModelsLayer
         public string? Email {  get; set; }
         public string? Status { get; set; }
         public string? Photo { get; set; }
-        public Member() { }
-        public Member(int memberId, string nom, string prenoms, string location, int phone, string email, string status, string photo) 
+        public Members() { }
+        public Members(int memberId, string nom, string prenoms, string location, int phone, string email, string status, string photo) 
         {
             MemberId = memberId;
             Nom = nom;
