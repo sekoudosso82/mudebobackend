@@ -29,6 +29,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\DbLayer.csproj": {
+                "projectPath": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\DbLayer.csproj"
+              },
               "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\ModelsLayer.csproj": {
                 "projectPath": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\ModelsLayer.csproj"
               }

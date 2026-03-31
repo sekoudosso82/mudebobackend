@@ -19,8 +19,11 @@ namespace ModelsLayer
         public string? Email {  get; set; }
         public string? Status { get; set; }
         public string? Photo { get; set; }
+        public DateTime DateJoined { get; set; }
+        public bool IsActive { get; set; }
         public Members() { }
-        public Members(int memberId, string nom, string prenoms, string location, int phone, string email, string status, string photo) 
+        public Members(int memberId, string nom, string prenoms, string location, 
+            int phone, string email, string status, string photo, DateTime dateJoint, bool isActive ) 
         {
             MemberId = memberId;
             Nom = nom;
@@ -30,6 +33,8 @@ namespace ModelsLayer
             Email = email;
             Status = status;
             Photo = photo;
+            DateJoined = dateJoint;
+            IsActive = isActive;
         }
     }
 }

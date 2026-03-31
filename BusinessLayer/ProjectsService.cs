@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DbLayer;
+using Microsoft.EntityFrameworkCore;
+using ModelsLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,31 +9,116 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    public class ProjectService : IProject
+    public class ProjectsService : IProjects
     {
-        Task<bool> IProject.AddProjectAsync(ProjectService project)
+
+        private readonly MudeboDb _context;
+        //constructor
+        public ProjectsService(MudeboDb context)
         {
-            throw new NotImplementedException();
+            _context = context;
+        }
+        public async Task<bool> AddProjectAsync(Projects project)
+        {
+
+            await _context.AddAsync(project);
+
+            try
+            { await _context.SaveChangesAsync(); }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                Console.WriteLine($"there was a problem updating the db => {ex.InnerException}");
+                return false;
+            }
+            return true;
         }
 
-        Task<bool> IProject.DeleteProjectAsync(int projectId)
+        public async Task<bool> DeleteProjectAsync(int projectId)
         {
-            throw new NotImplementedException();
+            var p = await _context.Projects.FindAsync(projectId);
+            try
+            {
+                if (p != null)
+                {
+                    _context.Projects.Remove(p);
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                Console.WriteLine($"there was a problem updating the db => {ex.InnerException}");
+                return false;
+            }
+            catch (DbUpdateException ex)
+            {
+                Console.WriteLine($"there was a problem updating the db => {ex.InnerException}");
+                return false;
+            }
+            return true;
         }
 
-        Task<bool> IProject.EditProjectAsync(ProjectService project, ProjectService projectUpdated)
+        public async Task<bool> EditProjectAsync(Projects project, Projects projectUpdated)
         {
-            throw new NotImplementedException();
+            var p = await _context.Projects.FindAsync(project.ProjectId);
+            try
+            {
+                if (p != null)
+                {
+                    p.ProjectTitle = projectUpdated.ProjectTitle;
+                    p.ProjectDescription = projectUpdated.ProjectDescription;
+                    p.ProjectStatus = projectUpdated.ProjectStatus;
+                    p.ProjectDate = projectUpdated.ProjectDate;
+                    p.ProjectPhoto = projectUpdated.ProjectPhoto;
+                }
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                Console.WriteLine($"there was a problem updating the db => {ex.InnerException}");
+                return false;
+            }
+            catch (DbUpdateException ex)
+            {
+                Console.WriteLine($"there was a problem updating the db => {ex.InnerException}");
+                return false;
+            }
+            return true;
         }
 
-        Task<ProjectService?> IProject.FindProjectAsync(int projectId)
+        public async Task<Projects?> FindProjectAsync(int projectId)
         {
-            throw new NotImplementedException();
+            var result = new Projects();
+            var noResult = new Projects();
+            try
+            {
+                var p = await _context.Projects.SingleOrDefaultAsync(x => x.ProjectId == projectId);
+                if (p != null) { result = p; }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"there was a problem finding this project => {ex.InnerException}");
+                return noResult;
+            }
+            return result;
         }
 
-        Task<List<ProjectService>> IProject.ProjectListAsync()
+        public async Task<List<Projects>> ProjectsListAsync()
         {
-            throw new NotImplementedException();
+            List<Projects> noResult = new List<Projects>();
+            var pList = new List<Projects>();
+            try
+            {
+                if (await _context.Projects.ToListAsync() is not null)
+                {
+                    pList = await _context.Projects.ToListAsync();
+                }
+            }
+            catch (ArgumentNullException ex)
+            {
+                Console.WriteLine($"there was a problem finding this member => {ex.InnerException}");
+                return noResult;
+            }
+            return pList;
         }
     }
 }

@@ -1375,6 +1375,7 @@
       },
       "BusinessLayer/1.0.0": {
         "dependencies": {
+          "DbLayer": "1.0.0",
           "JWT": "8.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "BusinessLayer/1.0.0": {
         "dependencies": {
+          "DbLayer": "1.0.0",
           "JWT": "8.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
@@ -1323,6 +1324,17 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "DbLayer/1.0.0": {
+        "dependencies": {
+          "JWT": "8.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "ModelsLayer": "1.0.0"
+        },
+        "runtime": {
+          "DbLayer.dll": {}
+        }
+      },
       "ModelsLayer/1.0.0": {
         "dependencies": {
           "JWT": "8.0.0",
@@ -2243,6 +2255,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "DbLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "ModelsLayer/1.0.0": {
       "type": "project",

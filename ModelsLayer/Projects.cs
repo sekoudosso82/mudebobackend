@@ -17,6 +17,7 @@ namespace ModelsLayer
         public string? ProjectStatus { get; set; }
         public DateOnly ProjectDate { get; set; }
         public string? ProjectPhoto { get; set; }
+        public Projects() { }
 
         public Projects(string projectTitle, string projectDescription, 
             string projectStatus, DateOnly projectDate, string projectPhoto) 

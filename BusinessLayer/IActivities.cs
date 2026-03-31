@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelsLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,10 @@ namespace BusinessLayer
 {
     public interface IActivities
     {
-        Task<List<ActivityService>> ActivitiesListAsync();
-        Task<ActivityService?> FindActivityAsync(int Activity);
-        Task<bool> AddActivityAsync(ActivityService activity);
-        Task<bool> EditActivityAsync(ActivityService activity, ActivityService activityUpdated);
-        Task<bool> DeleteActivityAsync(int activityId);
+        Task<List<Activities>> ActivitiesListAsync();
+        Task<Activities?> FindActivitiesAsync(int Activity);
+        Task<bool> AddActivitiesAsync(Activities activity);
+        Task<bool> EditActivitiesAsync(Activities activities, Activities activitiesUpdated);
+        Task<bool> DeleteActivitiesAsync(int activitiesId);
     }
 }

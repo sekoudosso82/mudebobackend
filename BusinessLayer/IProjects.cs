@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelsLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    public interface IProject
+    public interface IProjects
     {
-        Task<List<ProjectService>> ProjectListAsync();
-        Task<ProjectService?> FindProjectAsync(int projectId);
-        Task<bool> AddProjectAsync(ProjectService project);
-        Task<bool> EditProjectAsync(ProjectService project, ProjectService projectUpdated);
+        Task<List<Projects>> ProjectsListAsync();
+        Task<Projects?> FindProjectAsync(int projectId);
+        Task<bool> AddProjectAsync(Projects project);
+        Task<bool> EditProjectAsync(Projects project, Projects projectUpdated);
         Task<bool> DeleteProjectAsync(int projectId);
     }
 }

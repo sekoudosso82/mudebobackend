@@ -11,7 +11,7 @@ namespace ModelsLayer
     {
         [Required]
         [Key]
-        public string? ActivityId { get; set; }
+        public int? ActivityId { get; set; }
         public string? ActivityTitle { get; set; }
         public string? ActivityDescription { get; set; }
         public DateOnly? ActivityDate { get; set; }
@@ -19,7 +19,7 @@ namespace ModelsLayer
         public string? ActivityPhoto { get; set; }
         public Activities() { }
 
-        public Activities(string activityId,string activityTitle, 
+        public Activities(int activityId,string activityTitle, 
             string activityDescription, DateOnly activityDate, 
             string activityStatus, string activityPhoto)
         {

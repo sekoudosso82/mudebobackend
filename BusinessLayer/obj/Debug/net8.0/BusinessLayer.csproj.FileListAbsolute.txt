@@ -16,3 +16,5 @@ C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\BusinessLayer\obj\Debug\net8.0\Bus
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\BusinessLayer\bin\Debug\net8.0\BusinessLayer.runtimeconfig.json
 C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\BusinessLayer\obj\Debug\net8.0\BusinessLayer.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\BusinessLayer\bin\Debug\net8.0\DbLayer.dll
+C:\Users\USER\OneDrive\Desktop\MEDEBO\mdbback\BusinessLayer\bin\Debug\net8.0\DbLayer.pdb

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelsLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    internal interface ILogins
+    public interface ILogins
     {
+        Task<bool> FindLoginsAsync(Logins log);
     }
 }
