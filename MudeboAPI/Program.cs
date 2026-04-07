@@ -1,13 +1,15 @@
 using BusinessLayer;
 using DbLayer;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -21,7 +23,14 @@ builder.Services.AddCors((options) =>
     options.AddPolicy(name: "dev", builder =>
     {
         builder.WithOrigins(
-            "http://localhost:4200",
+            "https://localhost:7097",
+            "http://localhost:5243",
+            "http://localhost:41008",
+            "http://localhost:5243",
+            "http://localhost:5243",
+            "https://localhost:5243",
+            "https://localhost:44373",
+            "http://localhost:44373",
             "https://localhost:7029"
 
         )
@@ -44,6 +53,27 @@ builder.Services.AddScoped<IProjects, ProjectsService>();
 builder.Services.AddScoped<ILogins, LoginsService>();
 builder.Services.AddControllersWithViews();
 
+///////////////////////////////////////////////////
+var key = "this is my custom secret key for authentication";
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
+            ValidateIssuer = false,
+            ValidateAudience = false,
+    };
+});
+builder.Services.AddAuthorization();
+/////////////////////////////////////////////////////////////////
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -58,6 +88,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseCors("dev");
+app.UseAuthentication();
 app.UseAuthorization();
 app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
 
@@ -66,6 +97,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Members}/action=MembersList"
     
-    );
+);
 
 app.Run();

@@ -21,6 +21,7 @@ namespace BusinessLayer
         }
         public async Task<bool> AddMemberAsync(Members member)
         {
+            member.Status = "Membre";
             member.DateJoined = DateTime.UtcNow;
             member.IsActive = true;
             await _context.AddAsync(member);
