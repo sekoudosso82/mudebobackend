@@ -19,11 +19,9 @@ namespace DbLayer
         public DbSet<Logins> Logins { get; set; }
 
         public MudeboDb() { }
-        // public MudeboDb(DbContextOptions options) : base(options) { }
         public MudeboDb(DbContextOptions<MudeboDb> options ) : base(options) { }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            // base.OnConfiguring(optionsBuilder);
         }
     }
 }

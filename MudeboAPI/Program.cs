@@ -41,9 +41,9 @@ builder.Services.AddCors((options) =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MudeboDb>(options =>
 {
-    if ( options.IsConfigured)
+    if ( !options.IsConfigured)
     {
-        options.UseSqlServer("Server=LAPTOP-Q18VFCDI\\SQLSERVERFORDEV;Database=CodeFirstJokeApp;Trusted_Connection=True;");
+        options.UseSqlServer("Server=LAPTOP-Q18VFCDI\\SQLEXPRESS;Database=MudeboDb;Trusted_Connection=True;Encrypt=False;");
     }
 });
 
