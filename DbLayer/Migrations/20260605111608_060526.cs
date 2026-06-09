@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DbLayer.Migrations
 {
     /// <inheritdoc />
-    public partial class initialSetup : Migration
+    public partial class _060526 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,9 +19,9 @@ namespace DbLayer.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ActivityTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ActivityDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ActivityDate = table.Column<DateOnly>(type: "date", nullable: true),
+                    ActivityDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ActivityStatus = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ActivityPhoto = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    ActivityPhotoUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -55,11 +55,11 @@ namespace DbLayer.Migrations
                     Location = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Phone = table.Column<int>(type: "int", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Status = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Role = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Photo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DateJoined = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    IsActive = table.Column<bool>(type: "bit", nullable: false)
+                    AccessLevel = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DateJoined = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    MemberPhotoUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    IsActive = table.Column<bool>(type: "bit", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -75,8 +75,8 @@ namespace DbLayer.Migrations
                     ProjectTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ProjectDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ProjectStatus = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ProjectDate = table.Column<DateOnly>(type: "date", nullable: false),
-                    ProjectPhoto = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    ProjectDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    ProjectPhotoUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

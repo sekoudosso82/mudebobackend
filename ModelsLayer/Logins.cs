@@ -17,7 +17,7 @@ namespace ModelsLayer
         public string? Password { get; set; }
         public Logins() { }
         public Logins(int loginId, string username, string password) { 
-            LoginId = loginId;
+            // LoginId = loginId;
             UserName = username;
             Password = password;
         }

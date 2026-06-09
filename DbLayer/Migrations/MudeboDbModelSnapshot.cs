@@ -30,19 +30,20 @@ namespace DbLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("ActivityId"));
 
-                    b.Property<DateOnly?>("ActivityDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime?>("ActivityDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ActivityDescription")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ActivityPhoto")
+                    b.Property<string>("ActivityPhotoUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ActivityStatus")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ActivityTitle")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ActivityId");
@@ -73,46 +74,50 @@ namespace DbLayer.Migrations
 
             modelBuilder.Entity("ModelsLayer.Members", b =>
                 {
-                    b.Property<int>("MemberId")
+                    b.Property<int?>("MemberId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MemberId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("MemberId"));
 
-                    b.Property<DateTime>("DateJoined")
+                    b.Property<string>("AccessLevel")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DateJoined")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsActive")
+                    b.Property<bool?>("IsActive")
                         .HasColumnType("bit");
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("MemberPhotoUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nom")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Phone")
                         .HasColumnType("int");
 
-                    b.Property<string>("Photo")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Prenoms")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Status")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("UserName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MemberId");
@@ -122,25 +127,26 @@ namespace DbLayer.Migrations
 
             modelBuilder.Entity("ModelsLayer.Projects", b =>
                 {
-                    b.Property<int>("ProjectId")
+                    b.Property<int?>("ProjectId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProjectId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("ProjectId"));
 
-                    b.Property<DateOnly>("ProjectDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime?>("ProjectDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ProjectDescription")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProjectPhoto")
+                    b.Property<string>("ProjectPhotoUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectStatus")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectTitle")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ProjectId");

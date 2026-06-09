@@ -23,6 +23,13 @@ namespace MudeboAPI.Controllers
         private readonly MudeboDb _mudeboDb;
         private readonly string key  = "this is my custom secret key for authentication";
 
+        public AuthController(ILogger<MembersController> logger, ILogins login, MudeboDb mudeboDb)
+        {
+            _logger = logger;
+            _login = login;
+            _mudeboDb = mudeboDb;
+        }
+
         [HttpPost("login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login(Logins login)
@@ -38,7 +45,7 @@ namespace MudeboAPI.Controllers
                     Subject = new ClaimsIdentity(new Claim[]
                         { new Claim(ClaimTypes.Role, logged?.Role), }
                     ),
-                    Expires = DateTime.UtcNow.AddHours(1),
+                    Expires = DateTime.UtcNow.AddHours(0.1),
                     SigningCredentials = new SigningCredentials(
                         new SymmetricSecurityKey(tokenKey),
                         SecurityAlgorithms.HmacSha256Signature

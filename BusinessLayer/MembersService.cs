@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ModelsLayer;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -21,8 +22,10 @@ namespace BusinessLayer
         }
         public async Task<bool> AddMemberAsync(Members member)
         {
-            member.Status = "Membre";
+
+            // member.Status = "Membre";
             member.DateJoined = DateTime.UtcNow;
+            member.AccessLevel = "Membre";
             member.IsActive = true;
             await _context.AddAsync(member);
 
@@ -62,22 +65,26 @@ namespace BusinessLayer
         }
         
 
-        public async Task<bool> EditMemberAsync(Members member, Members memberUpdated)
+        public async Task<bool> EditMemberAsync(int memberId, Members updatedMember)
         {
-            var memb = await _context.Members.FindAsync(member.MemberId);
+            var memb = await _context.Members.FindAsync(memberId);
             try
             {
                 if (memb != null)
                 {
-                    memb.Nom = memberUpdated.Nom;
-                    memb.Prenoms = memberUpdated.Prenoms;
-                    memb.Location = memberUpdated.Location;
-                    memb.Phone = memberUpdated.Phone;
-                    memb.Email = memberUpdated.Email;
-                    memb.Status = memberUpdated.Status;
-                    memb.Photo = memberUpdated.Photo;
-                    memb.DateJoined = memberUpdated.DateJoined;
-                    memb.IsActive = memberUpdated.IsActive;
+                    memb.Nom = updatedMember.Nom;
+                    memb.Prenoms = updatedMember.Prenoms;
+                    memb.UserName = updatedMember.UserName;
+                    memb.Password = updatedMember.Password;
+                    memb.Location = updatedMember.Location;
+                    memb.Phone = updatedMember.Phone;
+                    memb.Email = updatedMember.Email;
+                    memb.Role = updatedMember.Role;
+                    memb.AccessLevel = updatedMember.AccessLevel;
+                    memb.MemberPhotoUrl = updatedMember.MemberPhotoUrl;
+                    memb.Location= updatedMember.Location;
+                    memb.DateJoined = updatedMember.DateJoined;
+                    memb.IsActive = updatedMember.IsActive;
                 }
                 await _context.SaveChangesAsync();
             }

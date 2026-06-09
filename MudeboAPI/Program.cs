@@ -1,6 +1,7 @@
 using BusinessLayer;
 using DbLayer;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -23,6 +24,7 @@ builder.Services.AddCors((options) =>
     options.AddPolicy(name: "dev", builder =>
     {
         builder.WithOrigins(
+            "http://localhost:4200",
             "https://localhost:7097",
             "http://localhost:5243",
             "http://localhost:41008",
@@ -34,6 +36,7 @@ builder.Services.AddCors((options) =>
             "https://localhost:7029"
 
         )
+        .AllowAnyOrigin()
         .AllowAnyHeader()
         .AllowAnyMethod();
     });
@@ -41,7 +44,7 @@ builder.Services.AddCors((options) =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MudeboDb>(options =>
 {
-    if ( !options.IsConfigured)
+    if (!options.IsConfigured)
     {
         options.UseSqlServer("Server=LAPTOP-Q18VFCDI\\SQLEXPRESS;Database=MudeboDb;Trusted_Connection=True;Encrypt=False;");
     }
@@ -65,15 +68,19 @@ builder.Services.AddAuthentication(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
     {
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
-            ValidateIssuer = false,
-            ValidateAudience = false,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
+        ValidateIssuer = false,
+        ValidateAudience = false,
     };
 });
 builder.Services.AddAuthorization();
 /////////////////////////////////////////////////////////////////
 
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 104857600; // 100 MB limit
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -86,6 +93,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 app.UseRouting();
 app.UseCors("dev");
 app.UseAuthentication();
@@ -96,7 +104,7 @@ app.MapControllers();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Members}/action=MembersList"
-    
+
 );
 
 app.Run();

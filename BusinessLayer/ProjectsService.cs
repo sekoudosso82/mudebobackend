@@ -57,9 +57,9 @@ namespace BusinessLayer
             return true;
         }
 
-        public async Task<bool> EditProjectAsync(Projects project, Projects projectUpdated)
+        public async Task<bool> EditProjectAsync(int projectId, Projects projectUpdated)
         {
-            var p = await _context.Projects.FindAsync(project.ProjectId);
+            var p = await _context.Projects.FindAsync(projectId);
             try
             {
                 if (p != null)
@@ -68,7 +68,7 @@ namespace BusinessLayer
                     p.ProjectDescription = projectUpdated.ProjectDescription;
                     p.ProjectStatus = projectUpdated.ProjectStatus;
                     p.ProjectDate = projectUpdated.ProjectDate;
-                    p.ProjectPhoto = projectUpdated.ProjectPhoto;
+                    p.ProjectPhotoUrl = projectUpdated.ProjectPhotoUrl;
                 }
                 await _context.SaveChangesAsync();
             }

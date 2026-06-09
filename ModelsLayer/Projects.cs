@@ -9,24 +9,28 @@ namespace ModelsLayer
 {
     public class Projects
     {
-        [Required]
+        //[Required]
         [Key]
-        public int ProjectId{ get; set; }
+        public int? ProjectId{ get; set; }
+        [Required]
+        //[StringLength(20, MinimumLength = 3,
+        //ErrorMessage = "project title must be between 3 and 20 characters.")]
         public string? ProjectTitle { get; set; }
         public string? ProjectDescription { get; set; }
         public string? ProjectStatus { get; set; }
-        public DateOnly ProjectDate { get; set; }
-        public string? ProjectPhoto { get; set; }
+        public DateTime? ProjectDate { get; set; }
+        public string? ProjectPhotoUrl { get; set; }
         public Projects() { }
 
-        public Projects(string projectTitle, string projectDescription, 
-            string projectStatus, DateOnly projectDate, string projectPhoto) 
+        public Projects(int projectId, string projectTitle, string projectDescription, 
+            string projectStatus, DateTime projectDate, string projectPhotoUrl) 
         {
+            ProjectId = projectId;
             ProjectTitle = projectTitle;
             ProjectDescription = projectDescription;
             ProjectStatus = projectStatus;
             ProjectDate = projectDate;
-            ProjectPhoto = projectPhoto;
+            ProjectPhotoUrl = projectPhotoUrl;
         }
 
     }

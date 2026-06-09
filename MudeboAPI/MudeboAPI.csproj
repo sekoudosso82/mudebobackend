@@ -28,4 +28,8 @@
     <ProjectReference Include="..\ModelsLayer\ModelsLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\NewFolder\" />
+  </ItemGroup>
+
 </Project>

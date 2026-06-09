@@ -9,26 +9,30 @@ namespace ModelsLayer
 {
     public class Activities
     {
-        [Required]
+        //[Required]
         [Key]
         public int? ActivityId { get; set; }
+        [Required]
+        [MinLength(3)]
+        //[StringLength(20, MinimumLength = 3, ErrorMessage = "Activity title must be between 3 and 20 characters.")]
         public string? ActivityTitle { get; set; }
         public string? ActivityDescription { get; set; }
-        public DateOnly? ActivityDate { get; set; }
+        public DateTime? ActivityDate { get; set; }
         public string? ActivityStatus { get; set; }
-        public string? ActivityPhoto { get; set; }
+        public string? ActivityPhotoUrl { get; set; }
+
         public Activities() { }
 
         public Activities(int activityId,string activityTitle, 
-            string activityDescription, DateOnly activityDate, 
-            string activityStatus, string activityPhoto)
+            string activityDescription, DateTime activityDate, 
+            string activityStatus, string activityPhotoUrl)
         {
             ActivityId = activityId;
             ActivityTitle = activityTitle;
             ActivityDescription = activityDescription;
             ActivityDate = activityDate;
             ActivityStatus = activityStatus;
-            ActivityPhoto = activityPhoto;
+            ActivityPhotoUrl = activityPhotoUrl;
 
         }
 

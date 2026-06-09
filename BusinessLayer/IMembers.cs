@@ -12,7 +12,7 @@ namespace BusinessLayer
         Task<List<Members>> MembersListAsync();
         Task<Members?> FindMemberAsync(int memberId);
         Task<bool> AddMemberAsync(Members member);
-        Task<bool> EditMemberAsync(Members member, Members memberUpdated);
+        Task<bool> EditMemberAsync(int memberId, Members member);
         Task<bool> DeleteMemberAsync(int memberId);
 
     }

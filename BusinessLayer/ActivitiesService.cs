@@ -56,19 +56,19 @@ namespace BusinessLayer
             return true;
         }
 
-        public async Task<bool> EditActivitiesAsync(Activities activities, Activities activitiesUpdated)
+        public async Task<bool> EditActivitiesAsync(int activityId, Activities activitiesUpdated)
         {
-            var act = await _context.Activities.FindAsync(activities.ActivityId);
+            var act = await _context.Activities.FindAsync(activityId);
             try
             {
                 if (act != null)
                 {
-                    act.ActivityId = activitiesUpdated.ActivityId;
+                    // act.ActivityId = activitiesUpdated.ActivityId;
                     act.ActivityTitle = activitiesUpdated.ActivityTitle;
                     act.ActivityDescription = activitiesUpdated.ActivityDescription;
                     act.ActivityDate = activitiesUpdated.ActivityDate;
                     act.ActivityStatus = activitiesUpdated.ActivityStatus;
-                    act.ActivityPhoto = activitiesUpdated.ActivityPhoto;
+                    act.ActivityPhotoUrl = activitiesUpdated.ActivityPhotoUrl;
                 }
                 await _context.SaveChangesAsync();
             }

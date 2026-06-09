@@ -12,7 +12,7 @@ namespace BusinessLayer
         Task<List<Activities>> ActivitiesListAsync();
         Task<Activities?> FindActivitiesAsync(int Activity);
         Task<bool> AddActivitiesAsync(Activities activity);
-        Task<bool> EditActivitiesAsync(Activities activities, Activities activitiesUpdated);
+        Task<bool> EditActivitiesAsync(int activityId, Activities activitiesUpdated);
         Task<bool> DeleteActivitiesAsync(int activitiesId);
     }
 }

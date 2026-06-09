@@ -12,7 +12,7 @@ namespace BusinessLayer
         Task<List<Projects>> ProjectsListAsync();
         Task<Projects?> FindProjectAsync(int projectId);
         Task<bool> AddProjectAsync(Projects project);
-        Task<bool> EditProjectAsync(Projects project, Projects projectUpdated);
+        Task<bool> EditProjectAsync(int projectId, Projects projectUpdated);
         Task<bool> DeleteProjectAsync(int projectId);
     }
 }
