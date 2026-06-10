@@ -15,7 +15,6 @@ namespace ModelsLayer
         public int? ActivityId { get; set; }
         [Required]
         [MinLength(3)]
-        // [StringLength(20, MinimumLength = 3, ErrorMessage = "Activity title must be between 3 and 20 characters.")]
         public string? ActivityTitle { get; set; }
         public string? ActivityDescription { get; set; }
         public DateTime? ActivityDate { get; set; }

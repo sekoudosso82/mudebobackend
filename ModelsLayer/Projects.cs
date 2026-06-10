@@ -13,8 +13,6 @@ namespace ModelsLayer
         [Key]
         public int? ProjectId{ get; set; }
         [Required]
-        //[StringLength(20, MinimumLength = 3,
-        //ErrorMessage = "project title must be between 3 and 20 characters.")]
         public string? ProjectTitle { get; set; }
         public string? ProjectDescription { get; set; }
         public string? ProjectStatus { get; set; }

@@ -3,6 +3,7 @@ using DbLayer;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
@@ -42,13 +43,8 @@ builder.Services.AddCors((options) =>
     });
 });
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<MudeboDb>(options =>
-{
-    if (!options.IsConfigured)
-    {
-        options.UseSqlServer("Server=LAPTOP-Q18VFCDI\\SQLEXPRESS;Database=MudeboDb;Trusted_Connection=True;Encrypt=False;");
-    }
-});
+// cs
+builder.Services.AddDbContext<MudeboDb>(options =>{if (!options.IsConfigured){options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")); } });
 
 builder.Services.AddScoped<IActivities, ActivitiesService>();
 builder.Services.AddScoped<IMembers, MembersService>();

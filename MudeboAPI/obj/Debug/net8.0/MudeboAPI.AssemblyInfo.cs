@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("987e0a6b-f609-45d2-9054-821b61a58972")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MudeboAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+052812587b36a454796fe839d236355009ab695c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+597ab8ab1c172a266666e8945421088727df7b8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MudeboAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MudeboAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
