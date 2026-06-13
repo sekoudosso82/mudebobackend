@@ -3,6 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BEF2E7-0901-42DF-8B15-FAA5CE5D1EF1}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\businesslayer\\membersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}|..\\ModelsLayer\\ModelsLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\modelslayer\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}|..\\ModelsLayer\\ModelsLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\modelslayer\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +44,7 @@
       "AbsoluteMoniker": "D:0:0:{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}|..\\ModelsLayer\\ModelsLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\modelslayer\\logins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}|..\\ModelsLayer\\ModelsLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\modelslayer\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}|..\\ModelsLayer\\ModelsLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\modelslayer\\members.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F82B5FB-4A18-4DCF-9FF9-E74F2DAF2510}|..\\ModelsLayer\\ModelsLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\modelslayer\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\UserSecrets\\987e0a6b-f609-45d2-9054-821b61a58972\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC23F7A1-AC5A-4C20-99D8-79EF723D2E78}|..\\DbLayer\\DbLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\dblayer\\mudebodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -42,38 +58,7 @@
       "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:mudeboapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35BEF2E7-0901-42DF-8B15-FAA5CE5D1EF1}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\businesslayer\\membersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608184359_060822.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608184336_06082.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35BEF2E7-0901-42DF-8B15-FAA5CE5D1EF1}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\businesslayer\\imembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608115738_060826.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605212658_06052.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|solutionrelative:controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35BEF2E7-0901-42DF-8B15-FAA5CE5D1EF1}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\businesslayer\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -85,43 +70,7 @@
       "AbsoluteMoniker": "D:0:0:{35BEF2E7-0901-42DF-8B15-FAA5CE5D1EF1}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\businesslayer\\iprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605111608_060526.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605104421_060526.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260604192351_060426.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260604170504_062123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260603125723_062126.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35BEF2E7-0901-42DF-8B15-FAA5CE5D1EF1}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\businesslayer\\iactivities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529131746_052521.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529124801_052529.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529124659_052529.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260527115217_052528.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143643_052527.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143358_052526.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143122_052526.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29704F6A-9689-4B4A-B25E-F728146C8BF3}|MudeboAPI.csproj|c:\\users\\user\\onedrive\\desktop\\medebo\\mdbback\\mudeboapi\\mudeboapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -135,11 +84,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 38,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -152,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "MudeboDb.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\MudeboDb.cs",
               "RelativeDocumentMoniker": "..\\DbLayer\\MudeboDb.cs",
@@ -165,72 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\UserSecrets\\987e0a6b-f609-45d2-9054-821b61a58972\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\987e0a6b-f609-45d2-9054-821b61a58972\\secrets.json",
-              "ToolTip": "C:\\Users\\USER\\AppData\\Roaming\\Microsoft\\UserSecrets\\987e0a6b-f609-45d2-9054-821b61a58972\\secrets.json*",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\987e0a6b-f609-45d2-9054-821b61a58972\\secrets.json*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-09T01:06:09.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20260608184359_060822.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608184359_060822.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260608184359_060822.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608184359_060822.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260608184359_060822.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T18:44:00.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20260608184336_06082.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608184336_06082.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260608184336_06082.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608184336_06082.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260608184336_06082.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T18:43:36.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20260608115738_060826.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608115738_060826.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260608115738_060826.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260608115738_060826.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260608115738_060826.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T11:57:38.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "20260605212658_06052.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605212658_06052.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260605212658_06052.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605212658_06052.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260605212658_06052.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T21:26:59.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "IProjects.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\BusinessLayer\\IProjects.cs",
               "RelativeDocumentMoniker": "..\\BusinessLayer\\IProjects.cs",
@@ -243,66 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20260605111608_060526.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605111608_060526.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260605111608_060526.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605111608_060526.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260605111608_060526.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T11:16:08.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20260605104421_060526.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605104421_060526.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260605104421_060526.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260605104421_060526.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260605104421_060526.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T10:44:22.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20260604192351_060426.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260604192351_060426.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260604192351_060426.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260604192351_060426.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260604192351_060426.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T19:23:51.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "20260604170504_062123.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260604170504_062123.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260604170504_062123.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260604170504_062123.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260604170504_062123.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T17:05:04.556Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MemberDto.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\MemberDto.cs",
               "RelativeDocumentMoniker": "..\\ModelsLayer\\MemberDto.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\MemberDto.cs",
               "RelativeToolTip": "..\\ModelsLayer\\MemberDto.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwA8AAAAtAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAmwCUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T13:30:00.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProjectsController.cs",
@@ -315,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ProjectDto.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\ProjectDto.cs",
               "RelativeDocumentMoniker": "..\\ModelsLayer\\ProjectDto.cs",
@@ -328,18 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20260603125723_062126.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260603125723_062126.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260603125723_062126.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260603125723_062126.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260603125723_062126.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T12:57:24.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "ProjectsService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\BusinessLayer\\ProjectsService.cs",
               "RelativeDocumentMoniker": "..\\BusinessLayer\\ProjectsService.cs",
@@ -352,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 20,
               "Title": "IActivities.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\BusinessLayer\\IActivities.cs",
               "RelativeDocumentMoniker": "..\\BusinessLayer\\IActivities.cs",
@@ -365,84 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20260529131746_052521.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529131746_052521.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260529131746_052521.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529131746_052521.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260529131746_052521.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T13:17:46.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20260529124801_052529.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529124801_052529.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260529124801_052529.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529124801_052529.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260529124801_052529.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T12:48:01.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20260529124659_052529.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529124659_052529.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260529124659_052529.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260529124659_052529.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260529124659_052529.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T12:47:00.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "20260527115217_052528.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260527115217_052528.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260527115217_052528.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260527115217_052528.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260527115217_052528.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T11:52:17.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "20260525143643_052527.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143643_052527.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260525143643_052527.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143643_052527.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260525143643_052527.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T14:36:43.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20260525143358_052526.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143358_052526.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260525143358_052526.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143358_052526.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260525143358_052526.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T14:33:58.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "20260525143122_052526.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143122_052526.cs",
-              "RelativeDocumentMoniker": "..\\DbLayer\\Migrations\\20260525143122_052526.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\DbLayer\\Migrations\\20260525143122_052526.cs",
-              "RelativeToolTip": "..\\DbLayer\\Migrations\\20260525143122_052526.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T14:31:22.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 18,
               "Title": "ActivitiesService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\BusinessLayer\\ActivitiesService.cs",
               "RelativeDocumentMoniker": "..\\BusinessLayer\\ActivitiesService.cs",
@@ -455,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "MudeboAPI.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\MudeboAPI.csproj",
               "RelativeDocumentMoniker": "MudeboAPI.csproj",
@@ -468,25 +218,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 0,
               "Title": "ActivitiesController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\ActivitiesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ActivitiesController.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\ActivitiesController.cs",
-              "RelativeToolTip": "Controllers\\ActivitiesController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAuwGYAAABfAAAA",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\ActivitiesController.cs*",
+              "RelativeToolTip": "Controllers\\ActivitiesController.cs*",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwDgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T13:53:51.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ActivitiesDto.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\ActivitiesDto.cs",
               "RelativeDocumentMoniker": "..\\ModelsLayer\\ActivitiesDto.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\ActivitiesDto.cs*",
-              "RelativeToolTip": "..\\ModelsLayer\\ActivitiesDto.cs*",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\ActivitiesDto.cs",
+              "RelativeToolTip": "..\\ModelsLayer\\ActivitiesDto.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T13:49:29.149Z",
@@ -494,12 +244,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Activities.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Activities.cs",
               "RelativeDocumentMoniker": "..\\ModelsLayer\\Activities.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Activities.cs*",
-              "RelativeToolTip": "..\\ModelsLayer\\Activities.cs*",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Activities.cs",
+              "RelativeToolTip": "..\\ModelsLayer\\Activities.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAawBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T12:33:43.025Z",
@@ -507,12 +257,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Projects.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Projects.cs",
               "RelativeDocumentMoniker": "..\\ModelsLayer\\Projects.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Projects.cs*",
-              "RelativeToolTip": "..\\ModelsLayer\\Projects.cs*",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Projects.cs",
+              "RelativeToolTip": "..\\ModelsLayer\\Projects.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T12:12:11.672Z",
@@ -533,46 +283,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "MembersService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\BusinessLayer\\MembersService.cs",
               "RelativeDocumentMoniker": "..\\BusinessLayer\\MembersService.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\BusinessLayer\\MembersService.cs",
               "RelativeToolTip": "..\\BusinessLayer\\MembersService.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAiwEQAAAAIAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAADwv0QAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T10:55:11.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Members.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Members.cs",
               "RelativeDocumentMoniker": "..\\ModelsLayer\\Members.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Members.cs",
               "RelativeToolTip": "..\\ModelsLayer\\Members.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAASAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-01T11:38:59.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAswC8AAAA6AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswCQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T18:38:48.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Logins.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\ModelsLayer\\Logins.cs",
               "RelativeDocumentMoniker": "..\\ModelsLayer\\Logins.cs",
@@ -585,20 +335,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "MembersController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\MembersController.cs",
               "RelativeDocumentMoniker": "Controllers\\MembersController.cs",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Controllers\\MembersController.cs",
               "RelativeToolTip": "Controllers\\MembersController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAIA8wFUAAAAMAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAqwJUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T03:15:46.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 21,
               "Title": "MudeboAPI.http",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\MudeboAPI.http",
               "RelativeDocumentMoniker": "MudeboAPI.http",
@@ -611,12 +361,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T15:55:15.16Z",

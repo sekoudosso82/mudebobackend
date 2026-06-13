@@ -99,7 +99,7 @@ namespace MudeboAPI.Controllers
 
         [HttpPut("{activityId}")] // PUT api/<ActivitiesController>/5
         [AllowAnonymous]
-        // [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<bool> EditActivityAsync(int activityId, [FromForm] ActivitiesDto dto)
         {
             var ActivityPhotoPath = " ";

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q7OrW0yNIrCFkoMobTYeJGcv55Yy1r04ljCv+eONUvs=",
+  "Hash": "KhK8FWvUVwPk6ybz9PSVslST2QYoPVxU0d04Gr2h9i8=",
   "Source": "MudeboAPI",
   "BasePath": "_content/MudeboAPI",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\activity-photo\\2cb941b9-deed-4758-9133-4eb1c2e35eb2mudeboLogo.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\2d0b9e0e-a830-4335-944b-8ddd85a789bedon de nate.jpeg",
+      "SourceId": "MudeboAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\",
+      "BasePath": "_content/MudeboAPI",
+      "RelativePath": "activity-photo/2d0b9e0e-a830-4335-944b-8ddd85a789bedon de nate.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\activity-photo\\2d0b9e0e-a830-4335-944b-8ddd85a789bedon de nate.jpeg"
     },
     {
       "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\31ac2551-edc9-4d06-b091-9178683adea8mudeboLogo.jpeg",
@@ -302,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\activity-photo\\6bf9f577-8984-4b28-9b87-5e40c57d9b23.jpeg"
     },
     {
+      "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\746c588c-d4bd-4f86-b6da-67a7f7c03bf6ramadan 2026 p1.jpeg",
+      "SourceId": "MudeboAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\",
+      "BasePath": "_content/MudeboAPI",
+      "RelativePath": "activity-photo/746c588c-d4bd-4f86-b6da-67a7f7c03bf6ramadan 2026 p1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\activity-photo\\746c588c-d4bd-4f86-b6da-67a7f7c03bf6ramadan 2026 p1.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\74789505-5bd4-4e05-bdef-ee6b7222dff7mudeboLogo.jpeg",
       "SourceId": "MudeboAPI",
       "SourceType": "Discovered",
@@ -414,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\activity-photo\\ae8cc8bd-5644-43ba-82af-3070f7f73d82.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\b304af86-16d9-46fc-bf39-69be1dbbfa1framadan 2026 p2.jpeg",
+      "SourceId": "MudeboAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\",
+      "BasePath": "_content/MudeboAPI",
+      "RelativePath": "activity-photo/b304af86-16d9-46fc-bf39-69be1dbbfa1framadan 2026 p2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\activity-photo\\b304af86-16d9-46fc-bf39-69be1dbbfa1framadan 2026 p2.jpeg"
     },
     {
       "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\b5aeb696-b702-4b46-aa5a-8505caefc132.jpeg",
@@ -661,6 +718,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\activity-photo\\f54a03e6-f02d-4209-b49f-a1dbd92b35a3.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\fc6b037b-2664-493f-b0ca-621424a9fd41don de nate.jpeg",
+      "SourceId": "MudeboAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\",
+      "BasePath": "_content/MudeboAPI",
+      "RelativePath": "activity-photo/fc6b037b-2664-493f-b0ca-621424a9fd41don de nate.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\activity-photo\\fc6b037b-2664-493f-b0ca-621424a9fd41don de nate.jpeg"
     },
     {
       "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\activity-photo\\mudeboLogo.jpeg",
@@ -1022,6 +1098,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\member-photo\\bae7dfb1-08b8-4663-a28e-e27d2c3a7533mudeboLogo.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\member-photo\\bbbcf301-7cbe-4f4a-a763-205e48cdc9cehodou.jpeg",
+      "SourceId": "MudeboAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\",
+      "BasePath": "_content/MudeboAPI",
+      "RelativePath": "member-photo/bbbcf301-7cbe-4f4a-a763-205e48cdc9cehodou.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\member-photo\\bbbcf301-7cbe-4f4a-a763-205e48cdc9cehodou.jpeg"
     },
     {
       "Identity": "C:\\Users\\USER\\OneDrive\\Desktop\\MEDEBO\\mdbback\\MudeboAPI\\wwwroot\\member-photo\\bde1b24b-5380-49e4-a850-00720538e29bmudeboLogo.jpeg",

@@ -35,8 +35,8 @@ namespace ModelsLayer
         //[Required]
         public int? Phone { get; set; }
         public string? Email { get; set; }
-        public string? Role { get; set; }
-        public string? AccessLevel { get; set; }
+        public string? Role { get; set; }  // Admin or Member
+        public string? Statut { get; set; }
         public DateTime? DateJoined { get; set; }
         public IFormFile? MemberPhotoUrl { get; set; }
         public bool? IsActive { get; set; }

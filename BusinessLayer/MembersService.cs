@@ -25,7 +25,7 @@ namespace BusinessLayer
 
             // member.Status = "Membre";
             member.DateJoined = DateTime.UtcNow;
-            member.AccessLevel = "Membre";
+            member.Role = "Membre";
             member.IsActive = true;
             await _context.AddAsync(member);
 
@@ -80,7 +80,7 @@ namespace BusinessLayer
                     memb.Phone = updatedMember.Phone;
                     memb.Email = updatedMember.Email;
                     memb.Role = updatedMember.Role;
-                    memb.AccessLevel = updatedMember.AccessLevel;
+                    memb.Statut = updatedMember.Statut;
                     memb.MemberPhotoUrl = updatedMember.MemberPhotoUrl;
                     memb.Location= updatedMember.Location;
                     memb.DateJoined = updatedMember.DateJoined;

@@ -25,15 +25,15 @@ namespace ModelsLayer
         //[Required]
         public int? Phone { get; set; }
         public string? Email {  get; set; }
-        public string? Role { get; set; }
-        public string? AccessLevel { get; set; }
+        public string? Role { get; set; } // Admin or Member
+        public string? Statut { get; set; }
         public DateTime? DateJoined { get; set; }
         public string? MemberPhotoUrl { get; set; }
         public bool? IsActive { get; set; }
         public Members() { }
         public Members(int memberId, string nom, string prenoms,
             string userName, string password, string location, 
-            int phone, string email, string role,string accessLevel, DateTime dateJoined,
+            int phone, string email, string role,string statut, DateTime dateJoined,
             string memberPhotoUrl, bool isActive ) 
         {
             MemberId = memberId;
@@ -45,7 +45,7 @@ namespace ModelsLayer
             Phone = phone;
             Email = email;
             Role = role;
-            AccessLevel = accessLevel;
+            Statut = statut;
             DateJoined = dateJoined;
             MemberPhotoUrl = memberPhotoUrl;
             IsActive = isActive;
